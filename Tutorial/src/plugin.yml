@@ -1,0 +1,25 @@
+name: Tutorial
+version: 1.0
+description: Tutorial plugin
+author: Milchbar
+website: http://yt.milchbarhd.de/
+
+main: de.milchbar.tutorial
+
+commands:
+   heal:
+      description: Heals you.
+      usage: /heal
+      permission: heal.heal
+      permission-message: Du hast nicht die Permssion: heal.heal
+
+
+    #basic - Der Name des Befehls.
+
+    #description - Die Beschreibung des Befehls.
+
+    #usage - Der Hilfe Dialog, welchen die User sehen, wenn die Methode onCommand false zurück gibt. Beschreibe deutlich was der Befehl macht und wie er zu benutzen ist.
+
+    #permission - Das wird genutzt um einigen Hilfe Plugins zu sagen, welche Befehle bei welchen Permissions angezeigt werden dürfen.
+
+    #permission-message - Diese Nachricht wird ausgegeben, wenn die benötigten Rechte zum Ausführen des Befehls nicht vorhanden sind, es aber dennoch versucht wird.
